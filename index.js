@@ -16,19 +16,23 @@ const generatejoke=()=>
    .then((result)=>result.json())
    .then((data)=>{
     jokes.innerHTML=data.joke;
+    jokesbtn.style.cssText=`background-color:grey;color:black;`;
    }).catch((error)=>
    {
     jokes.innerText="Loading jokes";
+    jokesbtn.style.cssText=`background-color:red;color:black;`;
    })
 
-
-   // jokesbtn.style.cssText=`backgroundcolor:grey;color:black;`;
+  
+   
 }
 
 const jokes=document.getElementById('jokes');
 const jokesbtn=document.getElementById('jokesbtn');
 // fire an event using jokesbtn
 jokesbtn.addEventListener('click', generatejoke);
-generatejoke();
+
+
+
 
 
