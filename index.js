@@ -36,3 +36,12 @@ jokesbtn.addEventListener('click', generatejoke);
 
 
 
+const jokes=document.getElementById('jokes');
+const jokesbtn=document.getElementById('jokesbtn');
+// fire an event using jokesbtn
+jokesbtn.addEventListener('click', generatejoke);
+
+
+
+
+
