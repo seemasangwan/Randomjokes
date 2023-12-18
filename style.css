@@ -1,0 +1,73 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: cursive;
+    font-weight: 300;
+    background-color: rgb(1, 30, 64);
+}
+.conatiner
+{
+    background-color: aliceblue;
+    width:500px;
+    border: 2px solid red;
+    text-align: center;
+    justify-content: center;
+    margin:20%;
+    padding:2%;
+    box-shadow: 5px 5px 2px rgb(206, 13, 13);
+    border-radius:20px;
+    margin:auto;
+    margin-top:10%;
+
+}
+#jokes,h2,button
+{
+    background-color: aliceblue; 
+    font-size:larger;
+}
+#jokes
+{
+    width:80%;
+    border: 0px solid black;
+    margin:auto;
+    height:100px;
+    text-align: center;
+    padding:3%;
+    font-family:'Courier New', Courier, monospace;
+    color:blue;
+    font-weight: 600;
+    border-radius:20px;
+    
+
+}
+h2
+{
+  
+    border: 0px solid grey;
+   
+    padding:20px;
+    width:80%;
+    margin:auto;
+    margin-bottom: 20px;
+    color:grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+button
+{
+    border: 0px solid grey;
+   
+    padding:20px;
+    width:40%;
+    margin:auto;
+    margin-bottom: 20px;
+    background-color: rgb(236, 89, 99);
+    margin-top:20px;
+    border:0px solid yellow;
+    color:white;
+    border-radius:20px;
+    font-style: italic;
+}
+button:hover{
+background-color: grey;
+color:black;
+}
